@@ -1,15 +1,15 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-function writePassword() {
-  var upperOrLower = promt("I'm Glad you would like to begin! \n For your password, would you like to include only Lower Case or a combination of both ? \n Please input 1 for Lower Case Only or input 2 for both Upper & Lower Case.");
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
+var passwordText = document.querySelector("#password");
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+function writePassword() {
+  alert("Lets begin by specifying the criteria desired for your password.");
+  var upperOrLower = prompt("[ CRITERIA#1 ]\nUtilize only lower case, only upper case or both ? \n Input 1 for lower case only \n Input 2 for upper case only \n Input 3 to utilze both");
+  
+  
+  var password = generatePassword();
+  passwordText.value = password;
+}
