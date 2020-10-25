@@ -10,8 +10,10 @@ See Keystone/Develop directory to access all necessary files. CSS and Javascript
 
 ## Website Display
 
-![Screenshot](/Keystone\Screenshots\1stpage.JPG "Application before Input")
-![Screenshot](/Keystone\Screenshots\1stprompt.JPG "Post User Input, first step")
+https://github.com/doublem1nt/Keystone/blob/main/Screenshots/
+
+![Screenshot](https://github.com/doublem1nt/Keystone/blob/main/Screenshots/1stpage.JPG "Application before Input")
+![Screenshot](https://github.com/doublem1nt/Keystone/blob/main/Screenshots/1stPrompt.JPG "Post User Input, first step")
 
 
 ## Contributing
