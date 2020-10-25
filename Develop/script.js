@@ -1,6 +1,5 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var passwordText = document.querySelector("#password");
 
 // String Character Pool
 var charUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -29,6 +28,7 @@ function writePassword() {
         lengthPass = prompt("Please try that again !!\n You may ONLY input #s between (or equal to) 8 and 128.");
     }
 
+    var intLength = parseInt(lengthPass);
     var numbersInclude = confirm("[ CRITERIA#3 ]\nWould you like to include numbers in your password?");
 
     if (numbersInclude) {
@@ -39,20 +39,19 @@ function writePassword() {
     if (speCharInclude) {
         pool += charSpec;
     }
-    
 
+    var password = generatePassword();
+
+    function generatePassword(){
+        var password = "";
+        for (var i=0; i < intLength; i++) {
+            password += pool.charAt(Math.floor(Math.random() * pool.length));
+        }
+        var passwordText = document.querySelector("#password");
+        passwordText.value = password;
+
+    }
 }
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-
-
-
-
-// var password = generatePassword();
-// function generatePassword();
-// passwordText.value = password;
-    
