@@ -11,9 +11,8 @@ See Keystone/Develop directory to access all necessary files. CSS and Javascript
 ## Website Display
 https://doublem1nt.github.io/Keystone/Develop
 
-## GIF
-![Screenshot#1](./Screenshots/1stpage.JPG "Application before Input")
-![Screenshot#2](./Screenshots/1stPrompt.JPG "Post User Input, first step")
+## Demo
+![demo](./Screenshots/demo.gif "demo")
 
 ## Credits 
 Triology Education Services provided prompt, course & instruction. 
