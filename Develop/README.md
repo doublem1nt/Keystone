@@ -9,14 +9,18 @@ See Keystone/Develop directory to access all necessary files. CSS and Javascript
 >> Please maintain this orientation for INDEX.HTML to operate properly. 
 
 ## Website Display
+https://doublem1nt.github.io/Keystone/Develop
 
-https://github.com/doublem1nt/Keystone/blob/main/Screenshots/
+## GIF
+![Screenshot#1](./Screenshots/1stpage.JPG "Application before Input")
+![Screenshot#2](./Screenshots/1stPrompt.JPG "Post User Input, first step")
 
-![Screenshot](https://github.com/doublem1nt/Keystone/blob/main/Screenshots/1stpage.JPG "Application before Input")
-![Screenshot](https://github.com/doublem1nt/Keystone/blob/main/Screenshots/1stPrompt.JPG "Post User Input, first step")
+## Credits 
+Triology Education Services provided prompt, course & instruction. 
 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Contributing
+## Contact
 Jonathan Yee, Junior Developer
-Doublem1nt Industries.
 jyee@jonathanyee.com
